@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@mengkodingan/ckptw": "^4.3.8",
+    "axios": "^1.7.7",
+    "node-fetch": "^3.3.2",
+    "os": "^0.1.2",
+    "ruhend-scraper": "^8.0.3"
+  },
+  "name": "bot-wa",
+  "version": "1.0.0",
+  "description": "Simple Bot Whatsapp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Bot-wa",
+    "baileys"
+  ],
+  "author": "Ndaa",
+  "license": "ISC"
+}
