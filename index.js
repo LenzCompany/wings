@@ -8,21 +8,21 @@ function startScript() {
 
     script.stdout.on('data', (data) => {
 
-        console.log(`STDOUT: ${data}`);
+        console.log(`Lenzy-ID LOGS: ${data}`);
 
     });
 
     script.stderr.on('data', (data) => {
 
-        console.error(`STDERR: ${data}`);
+        console.error(`ERROR: ${data}`);
 
     });
 
     script.on('close', (code) => {
 
-        console.log(`Skrip berhenti dengan kode: ${code}`);
+        console.log(`BOT berhenti dengan kode: ${code}`);
 
-        console.log('Merestart skrip...');
+        console.log('Merestart BOT...');
 
         startScript(); // Restart skrip jika berhenti
 

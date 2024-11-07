@@ -2,9 +2,9 @@
   "dependencies": {
     "@mengkodingan/ckptw": "^4.3.8",
     "axios": "^1.7.7",
-    "node-fetch": "^3.3.2",
-    "os": "^0.1.2",
-    "ruhend-scraper": "^8.0.3"
+    "child_process": "^1.0.2",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^3.3.2"
   },
   "name": "bot-wa",
   "version": "1.0.0",
